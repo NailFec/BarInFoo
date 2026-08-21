@@ -1,0 +1,26 @@
+{
+  "_comment": "snippets[].text is what Waybar shows after a fuzzel pick. search is extra filter text. match_app_id / match_title are only used by bin/sync-from-niri.sh (not enabled).",
+  "default": " F5 Compile | F6 C, Input Run | F7 C, Run last | F8 Open last | F9 Create new",
+  "snippets": [
+    {
+      "search": "neovim nvim c compile run",
+      "text": " F5 Compile | F6 C, Input Run | F7 C, Run last | F8 Open last | F9 Create new",
+      "match_app_id": ["neovide", "nvim", "neovim"],
+      "match_title": ["nvim", "neovim"]
+    },
+    {
+      "search": "neovim lua lsp",
+      "text": " gd 跳转 | K hover | <leader>lf format | <leader>ca code action",
+      "match_title": [".lua"]
+    },
+    {
+      "search": "kitty terminal tab",
+      "text": " Ctrl+Shift+T 新标签 | Ctrl+Shift+N 新窗口 | Ctrl+Shift+Return 分屏",
+      "match_app_id": ["kitty"]
+    },
+    {
+      "search": "niri compositor window",
+      "text": " Mod+H/L 左右列 | Mod+J/K 上下窗 | Mod+A 启动器 | Mod+Shift+A 这条提示"
+    }
+  ]
+}

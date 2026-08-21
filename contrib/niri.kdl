@@ -1,0 +1,12 @@
+// Copy into ~/.config/niri/config.kdl
+//
+// Enabled: pick a saved snippet into Waybar.
+Mod+Shift+A hotkey-overlay-title="Pick Waybar hint: fuzzel" {
+    spawn "/home/nailfec/Projects/BarInFoo/bin/pick-hint.sh";
+}
+
+// Not enabled: 30s poll + manual refresh of the focused window name.
+// spawn-at-startup "/home/nailfec/Projects/BarInFoo/bin/poll-niri.sh"
+// Mod+Shift+W hotkey-overlay-title="Refresh Waybar hint from focused window" {
+//     spawn "/home/nailfec/Projects/BarInFoo/bin/sync-from-niri.sh";
+// }
